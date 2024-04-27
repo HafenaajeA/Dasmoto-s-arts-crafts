@@ -1,0 +1,65 @@
+*{
+    box-sizing: border-box;
+}
+
+header.container{
+    position: relative;
+    width: 100%;
+    height: 200px;
+}
+h1{
+    position: absolute;
+    font-family: Helvetica;
+    font-size: 100px;
+    font-weight: bold;
+    color: khaki;
+    text-align: center;
+    top: 10px;
+    padding: 20px;
+    z-index: 1;
+    
+}
+.container img{
+    width: 100%;
+    height: 200px;
+    display: block;
+}
+
+.brushes{
+    font-family: Helvetica;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+    background-color: mediumspringgreen;
+}
+.blue-text{
+    font-family:Helvetica;
+    font-weight: bold;
+    color: blue;
+}
+.frames{
+    background-color: lightcoral;
+    color: white;
+}
+.paint{
+    background-color: skyblue;
+    color: white;
+}
+body{
+    width: 100%;
+    margin: 50px 50px 0px 50px;
+
+}
+footer{
+    background-color: gray;
+    width: 100%;
+    height: 150px;
+    margin-bottom: 0px;
+}
+footer h5{
+    text-align: center;
+    font-size: 16px;
+    font-weight: 100;
+    color: white;
+    padding: 10px;
+}
